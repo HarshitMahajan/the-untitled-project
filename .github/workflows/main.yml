@@ -18,6 +18,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install pylint pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        apt update && sudo apt install -y libjpeg-dev zlib1g-dev
     - name: Lint with pylint
       run: |
         # stop the build if there are Python syntax errors or undefined names

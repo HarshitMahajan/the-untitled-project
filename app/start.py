@@ -5,7 +5,7 @@ import arcade
 
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
-SCREEN_TITLE = "The Untitled Project"
+SCREEN_TITLE = "The Changed Untitled Project"
 
 
 class MyGame(arcade.Window):

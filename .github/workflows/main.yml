@@ -21,7 +21,7 @@ jobs:
     - name: Lint with pylint
       run: |
         # stop the build if there are Python syntax errors or undefined names
-        find . -type f -name "*.py" | xargs pylint
+        pylint app/
     - name: Test with pytest
       run: |
-        pytest
+        pytest tests/

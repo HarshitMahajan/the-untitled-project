@@ -10,19 +10,19 @@
 <h1 align="center">The Untitled Project</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/ufrshubham/the-untitled-project?color=a64dcf">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/ufrshubham/the-untitled-project?color=7745b7">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/ufrshubham/the-untitled-project?color=a64dcf">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/ufrshubham/the-untitled-project?color=7745b7">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ufrshubham/the-untitled-project?color=a64dcf">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ufrshubham/the-untitled-project?color=7745b7">
 
-  <img alt="License" src="https://img.shields.io/github/license/ufrshubham/the-untitled-project?color=a64dcf">
+  <img alt="License" src="https://img.shields.io/github/license/ufrshubham/the-untitled-project?color=7745b7">
 
-  <img alt="Github issues" src="https://img.shields.io/github/issues/ufrshubham/the-untitled-project?color=a64dcf" />
+  <img alt="Github issues" src="https://img.shields.io/github/issues/ufrshubham/the-untitled-project?color=7745b7" />
 
-  <img alt="Github forks" src="https://img.shields.io/github/forks/ufrshubham/the-untitled-project?color=a64dcf" />
+  <img alt="Github forks" src="https://img.shields.io/github/forks/ufrshubham/the-untitled-project?color=7745b7" />
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/ufrshubham/the-untitled-project?color=a64dcf" />
+  <img alt="Github stars" src="https://img.shields.io/github/stars/ufrshubham/the-untitled-project?color=7745b7" />
 </p>
 
 <!-- Status -->
@@ -80,14 +80,12 @@ $ python -m venv .venv
 $ pip install -r requirements.txt
 
 # Run the project
-$ python main.py
+$ python app/start.py
 ```
 
 ## :memo: License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-[Retro controller icon](.github/retro-controller.png) by [Skoll](https://game-icons.net/) under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 &#xa0;
 

@@ -9,13 +9,13 @@ jobs:
 
     steps:
     - name: Get dependencies for arcade
-      run: sudo apt update && sudo apt install -y libjpeg-dev zlib1g-dev
+      run: sudo apt update && sudo apt install -y libjpeg-dev zlib1g-dev freeglut3-dev
     - uses: actions/checkout@v2
     - name: Set up Python 3.x
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
-    - name: Install dependencies
+    - name: Install python packages
       run: |
         python -m pip install --upgrade pip
         pip install pylint pytest

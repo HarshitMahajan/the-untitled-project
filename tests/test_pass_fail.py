@@ -1,4 +1,3 @@
-from app import start
 import sys
 sys.path.append("../app/")
 
